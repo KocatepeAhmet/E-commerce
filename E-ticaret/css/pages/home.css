@@ -1,0 +1,61 @@
+.section-title {
+  text-align: center;
+  margin-bottom: 35px;
+}
+.section-title h2 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 0.8;
+  margin-bottom: 4px;
+}
+
+/* categories start */
+.categories {
+  margin: 40px 0;
+}
+.categories .category-list {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+/* categories start */
+
+/* products start*/
+.products {
+  margin-bottom: 40px;
+}
+.products .product-list {
+  /* display: flex;
+  gap: 20px;
+  flex-wrap: wrap;  */
+}
+/* products start */
+
+/* campaign start */
+.campaigns .campaigns-wrapper {
+  display: flex;
+  gap: 30px;
+  margin: 30px 0;
+  flex-wrap: wrap;
+}
+/* campaign start */
+
+/*! blogs start */
+.blogs{
+  margin-bottom: 30px;
+}
+
+.blogs .blog-list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+/*! blogs end */
+
+/* responsive */
+@media(max-width: 768px){
+  .blogs .blog-list{
+    grid-template-columns: 1fr;
+  }
+}

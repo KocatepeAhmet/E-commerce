@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bloglar</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+    <!--! header start  -->
+    <header>
+        <div class="global-notification">
+            <div class="container">
+                <p>
+                    YHH Alışveriş Sitesine Hoşgeldiniz
+                    <a href="shop.html">Hemen Alışveriş Yapın</a>
+                </p>
+            </div>
+        </div>
+        <div class="header-row">
+            <div class="container">
+                <div class="header-wrapper">
+                    <div class="header-mobile">
+                        <i class="bi bi-list" id="btn-menu"></i>
+                    </div>
+                    <div class="header-left">
+                        <a href="index.html">
+                            <img src="img/LOGO.PNG" class="logo-image">
+                        </a>
+                    </div>
+                    <div class="header-center" id="sidebar">
+                        <nav class="navigation">
+                            <ul class="menu-list">
+                                <li class="menu-list-item">
+                                    <a href="index.html" class="menu-link">Ana Sayfa
+                                        <i class="bi bi-chevron-compact-down"></i>
+                                    </a>
+                                    <div class="menu-dropdown-wrapper">
+                                        <ul class="menu-dropdown-content">
+                                            <li>
+                                                <a href="">Ev Stili</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Ev Tekstili</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Ev Dekorasyon</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Ev Temizliği</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Ev Gereçleri</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Elektrikli Ev Aletleri</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Aydınlatma</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="menu-list-item megamenu-wrapper">
+                                    <a href="shop.html" class="menu-link">Alışveriş
+                                        <i class="bi bi-chevron-compact-down"></i>
+                                    </a>
+                                    <div class="menu-dropdown-wrapper">
+                                        <div class="menu-dropdown-megamenu">
+                                            <div class="megamenu-links">
+                                                <div class="megamenu-products">
+                                                    <h3 class="megamenu-products-title">
+                                                        Alışveriş Stili
+                                                    </h3>
+                                                    <ul class="megamenu-menu-list">
+                                                        <li>
+                                                            <a href="#">Oto Aksesuar</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Motorsiklet Ürünleri</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Bahçe</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Banyo,Mutfak</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Elektrik,Tesisat</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Yapı,Market</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Mekanik El aletleri</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="megamenu-products">
+                                                    <h3 class="megamenu-products-title">
+                                                        Kozmetik, Kişisel Bakım
+                                                    </h3>
+                                                    <ul class="megamenu-menu-list">
+                                                        <li>
+                                                            <a href="#">Parfüm</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Makyaj</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Cilt Bakımı</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Ağız Bakımı</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Traş Ürünleri</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Saç Bakımı</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="megamenu-products">
+                                                    <h3 class="megamenu-products-title">
+                                                        Süpermarket
+                                                    </h3>
+                                                    <ul class="megamenu-menu-list">
+                                                        <li>
+                                                            <a href="#">Deterjan, Temizlik Ürünleri</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Bebek Bezi, Islak Mendil</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Kağıt Ürünleri</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">İçecekler</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Gıda Ürünleri</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Ofis Tüketim Malzemeleri</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="megamenu-single">
+                                                <a href="shop.html">
+                                                    <img src="img/mega-menu.jpg">
+                                                </a>
+                                                <h3 class="megamenu-single-title">Kaliteli Alışveriş</h3>
+                                                <h4 class="megamenu-single-subtitle">Güvenli Alışverişin Adresi</h4>
+                                                <a href="index.html" class="megamenu-single-button btn btn-sm">Hemen
+                                                    Alışveriş
+                                                    Yap</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu-list-item">
+                                    <a href="blog.html" class="menu-link active">Hakkımızda
+                                    </a>
+                                </li>
+                                <li class="menu-list-item">
+                                    <a href="contact.html" class="menu-link">İletişim
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <i class="bi-x-circle" id="close-sidebar"></i>
+                    </div>
+                    <div class="header-right">
+                        <div class="header-right-links">
+                            <a href="account.html" class="header-account">
+                                <i class="bi bi-person"></i>
+                            </a>
+                            <button class="search-button">
+                                <i class="bi bi-search"></i>
+                            </button>
+                            <a href="#">
+                                <i class="bi bi-heart"></i>
+                            </a>
+                            <div class="header-cart">
+                                <a href="cart.html" class="header-cart-link">
+                                    <i class="bi bi-bag"></i>
+                                    <span class="header-cart-count">0</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--! header end  -->
+
+    <!--! modal search start  -->
+    <div class="modal-search">
+        <div class="modal-wrapper">
+            <h3 class="modal-title">Ürün veya katagori arayın</h3>
+            <p class="modal-text">Aramaya başlamak için en az 2 karakter yazmalısınız</p>
+            <form class="search-form">
+                <input type="text" placeholder="Ürün Ara">
+                <button>
+                    <i class="bi bi-search"></i>
+                </button>
+            </form>
+            <div class="search-results">
+                <div class="search-heading">
+                    <h3>Ürün Sonuçları</h3>
+                </div>
+                <div class="results">
+                    <a href="#" class="result-item">
+                        <img src="img/products/product1/1.png" class="search-thumb">
+                        <div class="search-info">
+                            <h4> Ürün ismi</h4>
+                            <span class="search-sku">SKU: PD0016</span>
+                            <span class="search-price">$99.00</span>
+                        </div>
+                    </a>
+                    <a href="#" class="result-item">
+                        <img src="img/products/product2/1.png" class="search-thumb">
+                        <div class="search-info">
+                            <h4> Ürün ismi</h4>
+                            <span class="search-sku">SKU: PD0016</span>
+                            <span class="search-price">$99.00</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <i class="bi bi-x-circle" id="close-search"></i>
+        </div>
+    </div>
+    <!--! modal search end  -->
+
+    <!--! modal dialog start -->
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button class="modal-close">
+                <i class="bi bi-x"></i>
+            </button>
+            <div class="modal-image">
+                <img src="img/modal-dialog.jpg" alt="">
+            </div>
+            <div class="popup-wrapper">
+                <div class="popup-content">
+                    <div class="popup-title">
+                        <h3>İNDİRİM VE DAHA FAZLASI İÇİN TAKİP EDİN</h3>
+                    </div>
+                    <p class="popup-text">
+                        Sitemizi takip edin ve size özel kazandığınız indirimleri ve özel fırsatlardan yararlanma
+                        şansını yakalayın!
+                    </p>
+                    <form class="popup-form">
+                        <input type="text" placeholder="Mail Adresinizi Giriniz">
+                        <button class="btn btn-primary">Takip Et</button>
+                        <label>
+                            <input type="checkbox">
+                            <span> Bu sayfayı bir daha gösterme !</span>
+                        </label>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--! modal dialog end -->
+
+    <!-- single blog start -->
+    <section class="single-blog">
+        <div class="container">
+            <article>
+                <figure>
+                    <a href="">
+                        <img src="img/blogs/blog1.jpg" alt="">
+                    </a>
+                </figure>
+                <div class="blog-wrapper">
+                    <div class="blog-meta">
+                        <div class="blog-category">
+                            <a href="">
+                                KOLEKSİYON
+                            </a>
+                        </div>
+                        <div class="blog-date">
+                            <a href="">
+                                27 Temmuz 2023
+                            </a>
+                        </div>
+                        <div class="blog-tags">
+                            <a href="">Ürünler</a>,
+                            <a href="">Ceketler</a>
+                        </div>
+                    </div>
+                    <h1 class="blog-title">Modayı Şekillendiren En İyi Ürünler
+                    </h1>
+                    <div class="blog-content">
+                        <p>YHH modayı yakından takip edenlerin de gözdesi.Moda kategorisinde kadın, erkek, çocuk ve
+                            bebek kıyafetlerinin yanı sıra ayakkabı, çanta ve aksesuarları sunan site, moda trendlerini
+                            kullanıcılarına sunuyor. Giyim ihtiyaçlarını en trend ürünleri sunarak karşılayan YHH,
+                            günlük giyim alternatiflerinden abiyelere, spor giyimden ofis kıyafetlerine kadar farklı
+                            ihtiyaçlar için çeşit vadediyor. Türkiye'nin ve dünyanın sevilen giyim markaları en yeni
+                            ürünleriyle sezon modasını gardırobunuza taşıyor. Kışlık kadın kaban seçeneklerinden
+                            kazaklara, kadın çizme tasarımlarından topuklu ayakkabı modellerine, tesettür giyim
+                            ürünlerinden abiye elbise tasarımlarına kadar aradığınız her şeyi YHH'da bulabilirsiniz.
+                            YHH
+                            alışveriş sitesinin her bütçeye, her zevke uygun giyim ürünleri arasından hem kendi
+                            ihtiyaçlarınızı karşılayabilir hem de sevdiklerinize hediye alabilirsiniz. Kadın ayakkabı ve
+                            erkek spor ayakkabı modellerinde zengin ürün yelpazesi sunan YHH, çocukların ihtiyaçları
+                            için de doğru adres.</p>
+                        <p>Eviniz ve ofisiniz için ihtiyaç duyduğunuz her şeyi bir arada bulabileceğiniz YHH
+                            aracılığıyla ev dekorasyon ve ofis dekorasyon ürünlerinden ev tekstili tasarımlarına,
+                            kırtasiye malzemelerinden okul alışverişi için gerekli olan defter ve kalemlere kadar her
+                            şeyi sipariş verebilirsiniz.Ofis kırtasiye gereçlerini hem kendiniz hem de çocuklarınız ve
+                            sevdikleriniz için alabilirsiniz. Evinizi baştan yaratacak mobilyalardan çocuklarınıza resim
+                            yapmayı sevdirecek renkli kalemlere kadar her şeyiHepsiburada avantajlarıyla bulabilirsiniz.
+                        </p>
+                        <blockquote>
+                            <p>Türkiye'nin en büyük online alışveriş sitesi YHH, yenilikleri ile Türkiye'nin dijital
+                                alışveriş sektörüne yön veriyor. Online alışveriş deneyimini her geçen gün daha kolay
+                                hale getiren, dijitalleşen dünyanın gereklerine uygun geliştirmelerle sunduğu hizmetleri
+                                daha da avantajlı kılan YHH, ziyaretçilerine bol çeşit, uygun fiyat, hızlı teslimat ve
+                                sürpriz indirimler sunuyor.
+
+                                En iyi ürünleri en uygun fiyatlarla, en hızlı teslimatla ve müşteri memnuniyeti
+                                hedefiyle sunan YHH, büyümeye ve Türkiye'de e-ticaret deneyiminin standartlarını her
+                                geçen gün yükseltmeye devam ediyor.</p>
+                        </blockquote>
+                        <p>Kitap müzik film ve hobi kategorisinde yer alan ürünler, yılın en son çıkan kitaplarını,
+                            mutlaka okunması gereken kitaplarını, merakla beklenen müzik albümlerini, gişe rekoru kıran
+                            film ve dizilerin DVD'lerini, farklı hobilere yönelik kaliteli materyalleri meraklılalrına
+                            sunuyor. Hobileriniz için aradığınız her şeyi bulunduran sitede seramik kaleminden ahşap
+                            malzemelere, fırçalardan boyalara, klasik romanlardan hobi setlerine kadar tüm
+                            ihtiyaçlarınız yer alıyor. </p>
+                        <p>YHH kuruluşundan bu yana ziyaretçilerini tüm dünyanın tercih ettiği büyük markalarla
+                            buluşturuyor. Diesel saatler en gösterişli modelleri ile sitede yerini alırken Nike spor
+                            ayakkabı çeşitleri sezon modası ürünleri ile beğeniye sunuluyor.Giyimden mobilyaya,
+                            aksesuardan market ürünlerine kadar binlerce seçenek en iyi markaların garantisi ile YHH
+                            çatısı altında yer alıyor. Teknoloji devi markaların bilgisayar modelleri, akıllı
+                            telefonları veya kol saati seçenekleri garanti belgeleri ile kullanıcılara
+                            ulaşıyor.Dilerseniz kendiniz için kalite güvencesiyle Guess saat veya kadın güneş gözlüğü
+                            alabilir veya Casio saatler, dünyaca ünlü markaların çanta modelleri içinden sevdikleriniz
+                            için en güzel hediyeyi seçebilirsiniz.</p>
+                    </div>
+                </div>
+            </article>
+            <div class="tab-panel-reviews">
+                <h3>Yorumlar</h3>
+                <div class="comments">
+                    <ol class="comment-list">
+                        <li class="comment-item">
+                            <div class="comment-avatar">
+                                <img src="img/avatars/avatar1.jpg" alt="">
+                            </div>
+                            <div class="comment-text">
+                                <ul class="comment-star">
+                                    <li>
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li>
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li>
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li>
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li>
+                                        <i class="bi bi-star"></i>
+                                    </li>
+                                </ul>
+                                <div class="comment-meta">
+                                    <strong>user</strong>
+                                    <span>-</span>
+                                    <time>28 Şubat 2023</time>
+                                </div>
+                                <div class="comment-description">
+                                    <p>Harika ve güvenilir bir site. Önerebilirim</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="comment-item">
+                            <div class="comment-avatar">
+                                <img src="img/avatars/avatar1.jpg" alt="">
+                            </div>
+                            <div class="comment-text">
+                                <ul class="comment-star">
+                                    <li>
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li>
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li>
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li>
+                                        <i class="bi bi-star-fill"></i>
+                                    </li>
+                                    <li>
+                                        <i class="bi bi-star"></i>
+                                    </li>
+                                </ul>
+                                <div class="comment-meta">
+                                    <strong>Elif</strong>
+                                    <span>-</span>
+                                    <time>22 Şubat 2023</time>
+                                </div>
+                                <div class="comment-description">
+                                    <p>Alanında en iyisi diyebilirim.</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+                <!-- comment form start -->
+                <div class="review-form-wrapper">
+                    <h2>Yorum Ekle</h2>
+                    <form class="comment-form">
+                        <p class="comment-notes">E-posta adresiniz yayımlanmayacak.
+                            <span class="required">*</span>
+                        </p>
+                        <div class="comment-form-rating">
+                            <label>
+                                Değerlendirmeniz
+                                <span class="required">*</span>
+                            </label>
+                            <div class="stars">
+                                <a href="" class="star">
+                                    <i class="bi bi-star-fill"></i>
+                                </a>
+                                <a href="" class="star">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </a>
+                                <a href="" class="star">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </a>
+                                <a href="" class="star">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </a>
+                                <a href="" class="star">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="comment-form-comment form-comment">
+                            <label for="comment">
+                                Yorumunuz
+                                <span class="required">*</span>
+                            </label>
+                            <textarea id="comment" cols="50" rows="10"></textarea>
+                        </div>
+                        <div class="comment-form-author form-comment">
+                            <label for="name">
+                                Ad-Soyad
+                                <span class="required">*</span>
+                            </label>
+                            <input id="name" type="text">
+                        </div>
+                        <div class="comment-form-email form-comment">
+                            <label for="email">
+                                Mail
+                                <span class="required">*</span>
+                            </label>
+                            <input id="email" type="email">
+                        </div>
+                        <div class="comment-form-cookies">
+                            <input id="cookies" type="checkbox">
+                            <label for="cookies">
+                                Adımı, soyadımı ve mail adresimi bir daha girişimde hatırla.
+                                <span class="required">*</span>
+                            </label>
+                        </div>
+                        <div class="form-submit">
+                            <input type="submit" class="btn submit" value="Gönder">
+                        </div>
+                    </form>
+                </div>
+                <!-- comment form end -->
+            </div>
+        </div>
+    </section>
+    <!-- single blog start -->
+
+    <!--! policy start -->
+    <section class="policy">
+        <div class="container">
+            <ul class="policy-list">
+                <li class="policy-item">
+                    <i class="bi bi-truck"></i>
+                    <div class="policy-texts">
+                        <strong>ÜCRETSİZ KARGO</strong>
+                        <span>299₺ ve üzeri</span>
+                    </div>
+                </li>
+                <li class="policy-item">
+                    <i class="bi bi-headset"></i>
+                    <div class="policy-texts">
+                        <strong>7/24 DESTEK</strong>
+                        <span>24 saat aktif</span>
+                    </div>
+                </li>
+                <li class="policy-item">
+                    <i class="bi bi-arrow-clockwise"></i>
+                    <div class="policy-texts">
+                        <strong>30 GÜNDE İADE</strong>
+                        <span>30 gün içerisinde iade garantisi</span>
+                    </div>
+                </li>
+                <li class="policy-item">
+                    <i class="bi bi-credit-card"></i>
+                    <div class="policy-texts">
+                        <strong>ÖDEME YÖNTEMLERİ</strong>
+                        <span>Güvenli Ödeme</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!--! policy end -->
+
+    <!--! footer start -->
+    <footer class="footer">
+        <div class="subscribe-row">
+            <div class="container">
+                <div class="footer-row-wrapper">
+                    <div class="footer-subscribe-wrapper">
+                        <div class="footer-subscribe">
+                            <div class="footer-subscribe-top">
+                                <h3 class="subscribe-title">Yeni ürünler, indirimler ve daha fazlası hakkında bilgi için
+                                    e-posta adresinizi giriniz.</h3>
+                                <p class="subscribe-desc">
+                                    200₺ üzerindeki ilk siparişinizde size 10₺ değerinde bir kupon göndereceğiz.</p>
+                            </div>
+                            <div class="footer-subscribe-bottom">
+                                <form>
+                                    <input type="text" placeholder="Mail Adresinizi Giriniz">
+                                    <button class="btn">Giriş Yap</button>
+                                </form>
+                                <p class="privacy-text">Giriş yaparak <a href=""> Şartlar ve Koşullar ile Gizlilik ve
+                                        Çerezler Politikamızı </a> kabul etmiş olursunuz.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-contact-wrapper">
+                        <div class="footer-contact-top">
+                            <h3 class="contact-title">
+                                Yardıma mı ihtiyacınız var ? <br> (+90) 123 456 78 90
+                            </h3>
+                            <p class="contact-desc">8.30 18.30 saatleri arası arayabilirsiniz.</p>
+                        </div>
+                        <div class="footer-contact-bottom">
+                            <div class="download-app">
+                                <a href="">
+                                    <img src="img/footer/app-store.png" alt="">
+                                </a>
+                                <a href="">
+                                    <img src="img/footer/google-play.png" alt="">
+                                </a>
+                            </div>
+                            <p class="privacy-text">
+                                <strong>Uygulamamızı İndirin </strong>: Kayıt olup giriş yapın dilediğiniz zaman
+                                alışverişinizin tadını çıkarın.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="widgets-row">
+            <div class="container">
+                <div class="footer-widgets">
+                    <div class="brand-info">
+                        <div class="footer-logo">
+                            <a href="index.html">
+                                <img src="img/LOGO.PNG" class="logo-image">
+                            </a>
+                        </div>
+                        <div class="footer-desc">
+                            <p>Türkiye'nin en büyük online alışveriş sitesi YHH, yenilikleri ile Türkiye'nin dijital
+                                alışveriş sektörüne yön veriyor. Online alışveriş deneyimini her geçen gün daha kolay
+                                hale getiren, dijitalleşen dünyanın gereklerine uygun geliştirmelerle sunduğu hizmetleri
+                                daha da avantajlı kılan YHH, ziyaretçilerine bol çeşit, uygun fiyat, hızlı teslimat ve
+                                sürpriz indirimler sunuyor.
+
+                                En iyi ürünleri en uygun fiyatlarla, en hızlı teslimatla ve müşteri memnuniyeti
+                                hedefiyle sunan YHH, büyümeye ve Türkiye'de e-ticaret deneyiminin standartlarını her
+                                geçen gün yükseltmeye devam ediyor.</p>
+                        </div>
+                        <div class="footer-contact">
+                            <p>
+                                <a href="tel:555 555 55 55">(+800)1234 5678 90</a> -
+                                <a href="mailto:info@example.com">info@example.com</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="widget-nav-menu">
+                        <h4>Bilgi</h4>
+                        <ul class="menu-list">
+                            <li>
+                                <a href="">Hakkımızda</a>
+                            </li>
+                            <li>
+                                <a href="">Gizlilik Politikası</a>
+                            </li>
+                            <li>
+                                <a href="">İade Politikası</a>
+                            </li>
+                            <li>
+                                <a href="">Nakliye Politikası</a>
+                            </li>
+                            <li>
+                                <a href="">Dropshipping</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="widget-nav-menu">
+                        <h4>Giriş Yap</h4>
+                        <ul class="menu-list">
+                            <li>
+                                <a href="">Gösterge Paneli</a>
+                            </li>
+                            <li>
+                                <a href="">Siparişlerim</a>
+                            </li>
+                            <li>
+                                <a href="">Favori Ürünlerim</a>
+                            </li>
+                            <li>
+                                <a href="">Hesap Detayları</a>
+                            </li>
+                            <li>
+                                <a href="">Siparişlerimi Takip Et</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="widget-nav-menu">
+                        <h4>Mağazamız</h4>
+                        <ul class="menu-list">
+                            <li>
+                                <a href="">Şirketimiz</a>
+                            </li>
+                            <li>
+                                <a href="">En Çok Satanlar</a>
+                            </li>
+                            <li>
+                                <a href="">Yapılabilecek İndirimler</a>
+                            </li>
+                            <li>
+                                <a href="">En Son Eklenenler</a>
+                            </li>
+                            <li>
+                                <a href="">İndirimli Ürünler</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="widget-nav-menu">
+                        <h4>Kategoriler</h4>
+                        <ul class="menu-list">
+                            <li>
+                                <a href="">Kadın</a>
+                            </li>
+                            <li>
+                                <a href="">Erkek</a>
+                            </li>
+                            <li>
+                                <a href="">Çantalar</a>
+                            </li>
+                            <li>
+                                <a href="">Giyim</a>
+                            </li>
+                            <li>
+                                <a href="">Ayakkabı</a>
+                            </li>
+                            <li>
+                                <a href="">Saat</a>
+                            </li>
+                            <li>
+                                <a href="">Mobilya</a>
+                            </li>
+                            <li>
+                                <a href="">Koleksiyonluklar</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-row">
+            <div class="container">
+                <div class="footer-copyright">
+                    <div class="site-copyright">
+                        <p>
+                            Copyright 2023 © E-Ticaret Teması. Bütün hakları saklıdır. Ahmet KOCATEPE tarafından
+                            desteklenmektedir.
+                        </p>
+                    </div>
+                    <a href="">
+                        <img src="img/footer/cards.png" alt="">
+                    </a>
+                    <div class="footer-menu">
+                        <ul class="footer-menu-list">
+                            <li class="list-item">
+                                <a href="">Gizlilik Politikası</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="">Şartlar ve Koşullar</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="">İade Politikası</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--! footer start -->
+
+    <!--? JS -->
+    <script src="js/main.js" type="module"></script>
+</body>
+
+</html>
